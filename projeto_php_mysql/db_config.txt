@@ -13,3 +13,13 @@ create table demo(
 );
 
 SELECT * FROM demo;
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    usuario VARCHAR(50) NOT NULL UNIQUE,
+    senha VARCHAR(50) NOT NULL,
+    nome VARCHAR(100) NOT NULL,
+    data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO usuarios (usuario, senha, nome) VALUES ('admin', '123456', 'Administrador');

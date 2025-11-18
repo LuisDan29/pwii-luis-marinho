@@ -14,7 +14,7 @@
                      values ('$name', '$idade', '$cpf', '$endereco', '$celular', '$email')");
     $inserir->execute();
 
-    header("location:kaline.php");
+    header("location:visualizar.php");
 
 
 ?>

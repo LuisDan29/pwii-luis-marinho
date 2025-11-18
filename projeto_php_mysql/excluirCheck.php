@@ -7,6 +7,6 @@
     $excluir = $pdo->prepare("delete from demo where id='$id'");
     $excluir->execute();
 
-    header("location:kaline.php");
+    header("location:visualizar.php");
 
 ?>
