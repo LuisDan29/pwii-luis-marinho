@@ -52,7 +52,7 @@ if(isset($_POST['logar'])) {
                         <input type="password" name="senha" class="form-control" required>
                     </div>
                     <button type="submit" name="logar" class="btn btn-primary w-100">LOGAR</button>
-                    <a href="cadastrar_usuario.php" class="btn btn-secondary w-100 mt-2">CADASTRAR</a>
+                    <a href="cadastrarUsuario.php" class="btn btn-secondary w-100 mt-2">CADASTRAR</a>
                 </form>
             </div>
         </div>
