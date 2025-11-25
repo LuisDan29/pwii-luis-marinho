@@ -89,8 +89,7 @@
             </table>
 
             <div class="card-footer text-end">
-    <a href="index.php" class="btn btn-success">Novo Cadastro</a>
-    <a href="logout.php" class="btn btn-danger">Sair</a>
+    <a href="index.php" class="btn btn-danger">Voltar</a>
 </div>
 
                 </section>
